@@ -1,4 +1,4 @@
-# fundamental-technical-stock-signal
+# Stock signal based on fundamental and technical indicators
 ## Desired Outcomes
 I hope to ingest Yahoo news articles from Yahoo API for sentiment analysis and track recent % changes in top stocks in major industries and feed into an LSTM model which I will train in general over a years worth of data (Industry specific). The focus is to showcase and practice data and software architecture patterns. 
 I intend to use a local docker app to run the Kafka cluster and possibly ingest such data to BigTable (if we want to store the news article) or BigQuery (if we analyze sentiment during stream).
